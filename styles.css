@@ -1,5 +1,5 @@
 /* ============================================================================
-   Mémoire — site vitrine, hero minimaliste.
+   Ceqoï — site vitrine, hero minimaliste.
    Direction artistique reprise des tokens Sv de l'app.
    ========================================================================= */
 
@@ -15,6 +15,7 @@
   --shadow-phone: 0 50px 90px -30px rgba(58, 50, 91, 0.45), 0 18px 40px -20px rgba(58, 50, 91, 0.30);
   --r-pill: 999px;
   --font: 'General Sans', -apple-system, BlinkMacSystemFont, 'SF Pro Display', system-ui, sans-serif;
+  --grotesk: 'Schibsted Grotesk', 'Helvetica Neue', Arial, sans-serif;
   --ease: cubic-bezier(0.22, 1, 0.36, 1);
   --maxw: 1180px;
 }
@@ -56,9 +57,9 @@ a { color: inherit; text-decoration: none; }
 
 /* ── Header (marque seule) ───────────────────────────────────────────── */
 .nav { position: absolute; top: 0; left: 0; right: 0; z-index: 10; padding: 22px clamp(20px, 5vw, 48px); }
-.brand { display: inline-flex; align-items: center; gap: 10px; }
-.brand__mark { width: 32px; height: 32px; filter: drop-shadow(0 4px 10px rgba(122, 102, 223, 0.35)); }
-.brand__name { font-size: 19px; font-weight: 700; letter-spacing: -0.5px; }
+.brand { display: inline-flex; align-items: center; gap: 12px; color: var(--ink); }
+.brand__mark { width: 26px; height: 26px; display: block; flex: none; color: currentColor; }
+.brand__name { font-family: var(--grotesk); font-size: 26px; font-weight: 500; letter-spacing: -0.02em; line-height: 1; }
 
 /* ── Bouton pill ─────────────────────────────────────────────────────── */
 .pill {

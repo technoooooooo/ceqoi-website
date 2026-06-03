@@ -3,13 +3,13 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <title>Mémoire — Garder ce que tu apprends, sans que ça s'efface.</title>
-  <meta name="description" content="Mémoire t'aide à retenir ce qui compte pour toi. Tu déposes, l'app range, et te le repropose au bon moment. Quelques secondes par jour." />
+  <title>Ceqoï — Pour retenir tout ce qui le mérite.</title>
+  <meta name="description" content="Ceqoï t'aide à retenir ce qui compte pour toi. Tu déposes, l'app range, et te le repropose au bon moment." />
 
   <meta property="og:type" content="website" />
   <meta property="og:locale" content="fr_FR" />
-  <meta property="og:title" content="Mémoire — Pour se souvenir." />
-  <meta property="og:description" content="Garder ce que tu apprends, sans que ça s'efface." />
+  <meta property="og:title" content="Ceqoï — Pour retenir tout ce qui le mérite." />
+  <meta property="og:description" content="Tu déposes, Ceqoï range, et te le repropose au bon moment." />
   <meta property="og:image" content="assets/og.png" />
   <meta name="theme-color" content="#EFEEF3" />
 
@@ -17,27 +17,20 @@
   <link rel="apple-touch-icon" href="assets/icon.svg" />
 
   <link rel="preconnect" href="https://api.fontshare.com" crossorigin />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600,700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600&display=swap" rel="stylesheet" />
 
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
-<!-- Sprite : mascotte + logo Apple -->
+<!-- Sprite : le signe (regard · tréma du ï) + logo Apple -->
 <svg width="0" height="0" class="sprite" aria-hidden="true" focusable="false">
-  <defs>
-    <radialGradient id="mascotBody" cx="36%" cy="30%" r="80%">
-      <stop offset="0%" stop-color="#ECE3FF" />
-      <stop offset="50%" stop-color="#BBA8F5" />
-      <stop offset="100%" stop-color="#7A66DF" />
-    </radialGradient>
-  </defs>
-  <symbol id="mascot" viewBox="0 0 48 48">
-    <ellipse cx="24" cy="24.5" rx="19" ry="17.5" fill="url(#mascotBody)" />
-    <ellipse cx="17.5" cy="15.5" rx="4.5" ry="2.8" fill="rgba(255,255,255,0.55)" />
-    <ellipse cx="18.8" cy="23" rx="2.3" ry="3.1" fill="#322C4E" />
-    <ellipse cx="29.2" cy="23" rx="2.3" ry="3.1" fill="#322C4E" />
-    <path d="M19.5 30 Q24 33.5 28.5 30" stroke="#322C4E" stroke-width="1.8" fill="none" stroke-linecap="round" />
+  <symbol id="mark" viewBox="0 0 100 100">
+    <circle cx="33" cy="50" r="12" fill="currentColor" />
+    <circle cx="67" cy="50" r="12" fill="currentColor" />
   </symbol>
   <symbol id="i-apple" viewBox="0 0 24 24">
     <path d="M16.36 12.6c.02 2.5 2.19 3.33 2.22 3.34-.02.06-.35 1.18-1.15 2.34-.69 1-1.41 2-2.54 2.02-1.11.02-1.47-.66-2.74-.66-1.27 0-1.66.64-2.71.68-1.09.04-1.92-1.08-2.62-2.08-1.42-2.06-2.51-5.82-1.05-8.36.72-1.26 2.02-2.06 3.43-2.08 1.07-.02 2.08.72 2.74.72.65 0 1.88-.89 3.17-.76.54.02 2.06.22 3.03 1.64-.08.05-1.81 1.06-1.79 3.16M14.3 5.2c.58-.7.97-1.68.86-2.66-.84.03-1.85.56-2.45 1.26-.54.62-1.01 1.62-.88 2.58.93.07 1.89-.48 2.47-1.18" fill="currentColor" />
@@ -52,21 +45,19 @@
 </div>
 
 <header class="nav">
-  <a class="brand" href="#" aria-label="Mémoire">
-    <svg class="brand__mark" viewBox="0 0 48 48" aria-hidden="true"><use href="#mascot" /></svg>
-    <span class="brand__name">Mémoire</span>
+  <a class="brand" href="#" aria-label="Ceqoï">
+    <svg class="brand__mark" viewBox="0 0 100 100" aria-hidden="true"><use href="#mark" /></svg>
+    <span class="brand__name">ceqoï</span>
   </a>
 </header>
 
 <main class="hero">
   <div class="hero__copy">
-    <h1 class="hero__title">Garder ce que tu apprends,<br /><span class="grad-text">sans que ça s'efface.</span></h1>
-    <p class="hero__sub">Tu déposes, Mémoire range, et te le repropose au bon moment.</p>
+    <h1 class="hero__title">Pour retenir tout ce qui le mérite.</h1>
     <a class="pill pill--grad" href="#" data-store-link>
       <svg class="ico" aria-hidden="true"><use href="#i-apple" /></svg>
       Télécharger sur l'App Store
     </a>
-    <p class="hero__note">Gratuit · iPhone · Ton journal reste privé.</p>
   </div>
 
   <div class="hero__device">
@@ -74,7 +65,7 @@
       <div class="phone__notch"></div>
       <div class="phone__screen">
         <img class="phone__shot" src="assets/hero-home.png"
-             alt="Écran d'accueil de Mémoire : point mémoire du jour, série, souvenirs récents" />
+             alt="Écran d'accueil de Ceqoï : point du jour, série, souvenirs récents" />
       </div>
     </div>
   </div>
