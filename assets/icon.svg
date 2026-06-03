@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <!-- Icône Mémoire — reprise à l'identique de l'app (design/app_icon.svg). -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8AA0F5"/>
+      <stop offset="100%" stop-color="#5C4FD0"/>
+    </linearGradient>
+    <linearGradient id="m" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F2EEFF"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="1024" height="1024" rx="224" fill="url(#bg)"/>
+  <g fill="url(#m)">
+    <path d="
+      M 232 740 L 232 320 Q 232 296 256 296 L 308 296 Q 326 296 336 312
+      L 504 580 Q 512 593 524 580 L 692 312 Q 702 296 720 296 L 772 296
+      Q 796 296 796 320 L 796 740 Q 796 760 776 760 L 728 760 Q 708 760 708 740
+      L 708 472 Q 708 450 696 470 L 552 700 Q 532 732 496 732 Q 460 732 440 700
+      L 296 470 Q 284 450 284 472 L 284 740 Q 284 760 264 760 L 252 760 Q 232 760 232 740 Z" />
+  </g>
+  <circle cx="812" cy="744" r="36" fill="#FFD66B"/>
+</svg>
