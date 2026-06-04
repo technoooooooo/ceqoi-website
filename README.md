@@ -20,7 +20,7 @@ Ouvrir directement `index.html` dans un navigateur suffit. Pour un rendu au plus
 proche de la prod (chemins relatifs, polices) :
 
 ```bash
-cd "Mémoire Website"
+cd sécoïe
 python3 -m http.server 8080
 # puis ouvrir http://localhost:8080
 ```
