@@ -31,7 +31,7 @@ python3 -m http.server 8080
    Tous les boutons « Télécharger » pointeront automatiquement dessus.
 2. **Image de partage** : ajouter `assets/og.png` (1200×630) pour les aperçus
    réseaux sociaux (référencée dans les balises Open Graph de `index.html`).
-3. **Liens légaux** : le pied de page pointe vers `ceqoi.app/privacy`,
+3. **Liens légaux** : le pied de page pointe vers `ceqoi.com/privacy`,
    `/legal` et `/terms` (cohérent avec `lib/core/config/app_info.dart`).
    Les publier ou ajuster les URLs.
 
