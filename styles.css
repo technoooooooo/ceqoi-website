@@ -174,6 +174,8 @@ a { color: inherit; text-decoration: none; }
 .doc__body strong { color: var(--ink); font-weight: 600; }
 .doc__body a { color: var(--violet); font-weight: 500; text-decoration: underline; text-underline-offset: 2px; text-decoration-thickness: 1px; }
 .doc__body a:hover { color: var(--ink); }
+.doc__body a.pill { color: #fff; text-decoration: none; font-weight: 600; }
+.doc__body a.pill:hover { color: #fff; }
 .doc__body hr { border: 0; border-top: 1px solid rgba(26, 26, 31, 0.08); margin: 32px 0; }
 .doc__body table { width: 100%; border-collapse: collapse; margin: 0 0 18px; font-size: 14.5px; }
 .doc__body th, .doc__body td { text-align: left; padding: 10px 12px; border-bottom: 1px solid rgba(26, 26, 31, 0.08); vertical-align: top; }
